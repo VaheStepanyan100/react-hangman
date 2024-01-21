@@ -4,8 +4,6 @@ type HangmanWordProps = {
 }
 
 export function HangmanWord({guessedLetter, wordToGuess}: HangmanWordProps) {
-  const word = 'test';
-  const guessedLetters = ["t"];
   return (
     <div
       style={{
