@@ -12,6 +12,8 @@ function App() {
 
   const incorrectLetters = guessedLetters.filter(letter => !wordToGuess.includes(letter));
 
+  
+
   return (
     <div
       style={{
